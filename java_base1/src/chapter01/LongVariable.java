@@ -1,0 +1,16 @@
+package chapter01;
+
+public class LongVariable {
+	public static void main(String[] args) {
+//int num1=1234568900; //32비트=4Byte
+		long num2=12345678900L;
+		long num3=1000; // long형의 64비트 이지만 L로 선언을 안했으면 int로 인식
+		
+		int level; //선언만하고 초기화되지 않음
+		level=10; //리터널 값
+		
+		System.out.println(num2+num3); //결과값 : long
+		System.out.println(level); 
+	}
+	
+}
