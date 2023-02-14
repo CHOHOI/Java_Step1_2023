@@ -4,20 +4,23 @@ public class CharacterEx1 {
 
 	public static void main(String[] args) {
 		
-		//char : 2Byte
+		//char : 2Byte (Java)
 		//char : 1Byte(C, C++, C#)
+		
 		char str1='A';
-		//char str="Hello java"; // ¹®ÀÚ¹æ('') ¹®ÀÚ¿­("")
+		//char str="Hello Java"; //ë¬¸ìë°©('') ë¬¸ìì—´("")
 		
 		String str2="Hello Java";
-		String str3="w";
+		String str3="W";
 		String str4="Welcome to Java";
 		
-		System.out.println("str1:" +str1);
-		System.out.println("str2:" +str2);
-		System.out.println("str3:" +str3);
-		System.out.println("str4:" +str4);
+		System.out.println("str1 : "+str1);
+		System.out.println("str2 : "+str2);
+		System.out.println("str3 : "+str3);
+		System.out.println("str4 : "+str4);
 
 	}
+	
+	
 
 }

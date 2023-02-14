@@ -3,12 +3,12 @@ package chapter01;
 public class DoubleEx2 {
 
 	public static void main(String[] args) {
-		//Á¤¼ö (int)¿Í ½Ç¼ö(float) ¿¬»ê½Ã¿¡´Â ´õ Á¤¹ĞÇÑ ¼ö·Î ÀÚµ¿ Çüº¯È¯ÀÌµÊ
+		// ì •ìˆ˜(int)ì™€ ì‹¤ìˆ˜(float)ì—°ì‚°ì‹œì—ëŠ” ë” ì •ë°€í•œ ìˆ˜ë¡œ ìë™ í˜•ë³€í™˜ì´ë¨  
 		
 		int aVal=10;
 		float bVal=10.5f;
 		
-		System.out.println("aVal + bVal:" +(aVal+bVal));
+		System.out.println("aVal + bVal : "+ (aVal+bVal));
 
 	}
 

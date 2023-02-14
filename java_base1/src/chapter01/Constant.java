@@ -3,16 +3,14 @@ package chapter01;
 public class Constant {
 
 	public static void main(String[] args) {
-		//»ó¼ö : º¯ÇÏÁö ¾Ê´Â °ª
+		// ìƒìˆ˜ : ë³€í•˜ì§€ ì•ŠëŠ” ê°’
 		
 		final int MAX_NUM=100;
-		final int MIN_NUM; //ÃÊ±âÈ­°ªÀÌ ¾øÀ½
+		final int MIN_NUM; //ì´ˆê¸°í™”ê°’ì´ ì—†ìŒ
 		final double PI=3.14;
 		
 		MIN_NUM=0;
-				
 		
-	
 		System.out.println(MAX_NUM);
 		System.out.println(MIN_NUM);
 		System.out.println(PI);

@@ -3,15 +3,16 @@ package chapter01;
 public class TypeInterface {
 
 	public static void main(String[] args) {
-		//var(ÂüÁ¶Çü º¯¼ö ¼±¾ğ): µ¥ÀÌÅÍÀÇ ÇüÅÂ¸¦ º¸°í ¾Ë¾Æ¼­ ÆÇ´ÜÇÏ¿© Å¸ÀÔÀ» ÁöÁ¤ÇÔ
+		// var(ì°¸ì¡°í˜• ë³€ìˆ˜ì„ ì–¸) : ë°ì´í„°ì˜ í˜•íƒœë¥¼ ë³´ê³  ì•Œì•„ì„œ íŒë‹¨í•˜ì—¬ íƒ€ì…ì„ ì§€ì •í•¨
 		
 		int i=10;
 		var j=10.0; //double
-		var str="Test Good";//string
-			
+		var str="Test Good"; //String
+		
 		System.out.println(i);
 		System.out.println(j);
 		System.out.println(str);
+
 	}
 
 }

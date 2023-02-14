@@ -1,16 +1,18 @@
 package chapter01;
 
 public class LongVariable {
+
 	public static void main(String[] args) {
-//int num1=1234568900; //32ºñÆ®=4Byte
+		
+		//int num1=12345678900; //32ë¹„íŠ¸ = 4Byte
 		long num2=12345678900L;
-		long num3=1000; // longÇüÀÇ 64ºñÆ® ÀÌÁö¸¸ L·Î ¼±¾ğÀ» ¾ÈÇßÀ¸¸é int·Î ÀÎ½Ä
+		long num3=1000; //longí˜•ì˜ 64ë¹„íŠ¸ì´ì§€ë§Œ Lë¡œ ì„ ì–¸ì„ ì•ˆí–ˆìœ¼ë¯€ë¡œ intë¡œ ì¸ì‹
+
+		int level; //ì„ ì–¸ë§Œí•˜ê³  ì´ˆê¸°í™”ë˜ì§€ ì•ŠìŒ
+		level=10; //ë¦¬í„°ë„ê°’
 		
-		int level; //¼±¾ğ¸¸ÇÏ°í ÃÊ±âÈ­µÇÁö ¾ÊÀ½
-		level=10; //¸®ÅÍ³Î °ª
-		
-		System.out.println(num2+num3); //°á°ú°ª : long
-		System.out.println(level); 
+		System.out.println(num2+num3); // ê²°ê³¼ê°’ : long 
+		System.out.println(level);
 	}
-	
+
 }

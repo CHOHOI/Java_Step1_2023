@@ -1,17 +1,20 @@
 package chapter01;
 
 public class BinaryTest1 {
-	public static void main(String[] args) {
-//ÀÚ·á±¸Á¶ - Type	
-		byte aVar = 127;
-	    short bVar = 30000;
-	    int cVar = 50000;
-	    long dVar = 1000000;
-	    	    
-		System.out.println("byte Å¸ÀÔ:"+ aVar);
-		System.out.println("short Å¸ÀÔ:" +bVar);
-		System.out.println("int Å¸ÀÔ:" + cVar);
-		System.out.println("long Å¸ÀÔ:"+ dVar);
-	}
 
+   public static void main(String[] args) {
+	   		//ìë£Œêµ¬ì¡° - Type
+	 		byte aVar =100;
+	 		short bVar =30000;
+	 		int cVar =50000;
+	 		long dVar =1000000;
+	 		
+	 		System.out.println("byte íƒ€ì… : " + aVar);
+	 		System.out.println("short íƒ€ì… : " + bVar);
+	 		System.out.println("int íƒ€ì… : " + cVar);
+	 		System.out.println("long íƒ€ì… : "+dVar);
+	 		
+   }
 }
+
+

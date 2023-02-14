@@ -1,14 +1,14 @@
 package chapter01;
 
 public class CharacterEx2 {
-
+	
 	public static void main(String[] args) {
-		 char ch1='ÇÑ';
-		 char ch2='\uD55C'; //À¯´ÏÄÚµå(16Áø¼ö)
-		 
-		 System.out.print(ch1);
-		 System.out.print(ch2);
-
+		
+		char ch1='í•œ';
+		char ch2='\uD55C'; //ìœ ë‹ˆì½”ë“œ
+		
+		System.out.println(ch1);
+		System.out.println(ch2);
 	}
 
 }

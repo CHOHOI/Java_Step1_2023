@@ -3,22 +3,24 @@ package chapter01;
 public class CharacterEx3 {
 
 	public static void main(String[] args) {
-		// ´ë¹®ÀÚ´Â 65ºÎÅÍ, ¼Ò¹®ÀÚ´Â 97ºÎÅÍ
+		
+		//ëŒ€ë¬¸ì :65 / ì†Œë¬¸ì :97
 		int a=65;
 		
 		System.out.println(a);
-		System.out.println((char)a);//¸í½ÃÀû Çüº¯È¯(ASCII ÄÚµå)
-		System.out.println("=========================");
-
+		System.out.println((char)a); //ëª…ì‹œì  í˜•ë³€í™˜(ASCII ì½”ë“œ)
+		System.out.println("=======================");
+		
 		int b=66;
 		System.out.println(b);
-		System.out.println((char)b);//¸í½ÃÀû Çüº¯È¯(ASCII ÄÚµå)
-		System.out.println("=========================");
+		System.out.println((char)b); //ëª…ì‹œì  í˜•ë³€í™˜(ASCII ì½”ë“œ)
+		System.out.println("=======================");
 		
 		int a2=97;
 		System.out.println(a2);
-		System.out.println((char)a2);//¸í½ÃÀû Çüº¯È¯(ASCII ÄÚµå)
-		System.out.println("=========================");
+		System.out.println((char)a2); //ëª…ì‹œì  í˜•ë³€í™˜(ASCII ì½”ë“œ)
+		
+
 	}
 
 }

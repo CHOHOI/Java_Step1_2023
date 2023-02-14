@@ -1,19 +1,21 @@
 package chapter01;
 
 public class BinaryTest2 {
-public static void main(String[] args) {
-	int Num = 10;
-	int bNum = 0B1000; //B=Binary Áï 2Áø¼ö(0B)
-	int oNum=010; // 8Áø¼ö(OCT) ->8Áø¼ö Ç¥Çö½Ã ¾Õ¿¡ 0À¸·Î Ç¥Çö
-	int bNum2=0B10000;
-	int hNum=0x30; // 16Áø¼ö(Hex) ->16Áø¼ö Ç¥Çö½Ã ¾Õ¿¡ 0x
-	//Ä«¸á±â¹ı Ã¹±ÛÀÚ ¹«Á¶°Ç ¼Ò¹®ÀÚ½ÃÀÛ Áß°£ ´Ü¾îÀÇ Ã¹ÀÚ ´ë¹®ÀÚ 
-	//ÆÄ½ºÄ®±â¹ı Ã¹±ÛÀÚ°¡ ¹«Á¶°Ç ´ë¹®ÀÚ ½ÃÀÛ
-	System.out.println(Num);
-	System.out.println(bNum);
-	System.out.println(oNum);
-	System.out.println(bNum2);
-	System.out.println(hNum);
+	
+     public static void main(String[] args) {
+		 //ì¹´ë©œ : ì²«ê¸€ìëŠ” ë¬´ì¡°ê±´ ì†Œë¬¸ì ì¤‘ê°„ë‹¨ì–´ì˜ ì²«ì ëŒ€ë¬¸ì
+    	 //íŒŒìŠ¤ì¹¼ : ì²«ê¸€ìëŠ” ë¬´ì¡°ê±´ ëŒ€ë¬¸ì
+    	 int num=10;
+    	 int bNum=0B1000; //Binary ì¦‰ 2ì§„ìˆ˜(0B)
+    	 int oNum=010; //8ì§„ìˆ˜(OCT)
+    	 
+    	 int bNum2=0B10000; 
+    	 int hNum=0x10; //16ì§„ìˆ˜(Hex)
+    	 
+    	 System.out.println(num);
+    	 System.out.println(bNum);
+    	 System.out.println(oNum);
+    	 System.out.println(bNum2);
+    	 System.out.println(hNum);
+	}
 }
-}
-

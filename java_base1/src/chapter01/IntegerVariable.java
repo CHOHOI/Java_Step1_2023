@@ -3,12 +3,14 @@ package chapter01;
 public class IntegerVariable {
 
 	public static void main(String[] args) {
-		short sVal=10;
-		 byte bVal =20;
-		int result=sVal +bVal;
 		
-		System.out.println("µÎ¼öÀÇ ÇÕ" +result);
-		System.out.println("µÎ¼öÀÇ ÇÕ:" +(sVal+bVal));
+		short sVal=10;
+		byte bVal=20;
+		
+		int result=sVal+bVal;
+		
+		System.out.println("ë‘ìˆ˜ì˜ í•© : "+result);
+		System.out.println("ë‘ìˆ˜ì˜ í•© : "+ (sVal + bVal));
 
 	}
 

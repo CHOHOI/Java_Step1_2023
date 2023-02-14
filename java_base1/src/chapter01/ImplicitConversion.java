@@ -3,21 +3,23 @@ package chapter01;
 public class ImplicitConversion {
 
 	public static void main(String[] args) {
-		//¹¬½ÃÀû Çüº¯È¯ :ÀÛÀº ¸Ş¸ğ¸®¿¡¼­ Å«¸Ş¸ğ¸®·Î ÀÚ¿¬½º·´°Ô Çüº¯È¯
-		byte bNum=10; //8ºñÆ®
+		// ë¬µì‹œì  í˜•ë³€í™˜ : ì‘ì€ë©”ëª¨ë¦¬ì—ì„œ í°ë©”ëª¨ë¦¬ë¡œ ìì—°ìŠ¤ëŸ½ê²Œ í˜•ë³€í™˜
+		
+		byte bNum=10; //8ë¹„íŠ¸
 		int iNum=bNum;
 		
 		System.out.println(bNum);
 		System.out.println(iNum);
 		
-		//¹¬½ÃÀû Çüº¯È¯: ´õ Á¤¹ĞÇÑ ¼ö·Î ÀÚ¿¬½º·´°Ô ¾Ï½ÃÀû Çüº¯È¯
+		// ë¬µì‹œì  í˜•ë³€í™˜ : ë” ì •ë°€í•œ ìˆ˜ë¡œ ìì—°ìŠ¤ëŸ½ê²Œ ì•”ì‹œì  í˜•ë³€í™˜
 		
 		int iNum2=20;
 		float fNum=iNum2;
 		
-		System.out.println("==============================");
+		System.out.println("=================");
 		System.out.println(iNum2);
 		System.out.println(fNum);
+
 	}
 
 }
